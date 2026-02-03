@@ -1,0 +1,86 @@
+:root {
+  /* Sunlight / Outdoor Palette (High Contrast) */
+  --color-bg-main: #ffffff;
+  /* Max brightness */
+  --color-bg-card: #f1f5f9;
+  /* Slate 100 - slight contrast against white */
+  --color-primary: #15803d;
+  /* dark green for better contrast on buttons */
+  --color-primary-glow: rgba(21, 128, 61, 0.4);
+  --color-text-main: #020617;
+  /* Slate 950 - Almost black */
+  --color-text-muted: #475569;
+  /* Slate 600 - Readable dark gray */
+  --color-accent: #0284c7;
+  /* Sky 600 - Darker blue for visibility */
+  --color-danger: #dc2626;
+
+  /* Outdoor Visibility shadows (stronger) */
+  --glass-border: 2px solid #cbd5e1;
+  --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --backdrop-blur: none;
+  /* Blurs can be hard to see in sun, solid is safer */
+
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  /* Bold by default for readability */
+
+  color-scheme: light;
+  color: var(--color-text-main);
+  background-color: var(--color-bg-main);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  /* Removed dark gradient, pure white/grey for sun */
+  background: #f8fafc;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Utilities */
+.glass-panel {
+  background: var(--color-bg-card);
+  backdrop-filter: var(--backdrop-blur);
+  border: var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: 16px;
+}

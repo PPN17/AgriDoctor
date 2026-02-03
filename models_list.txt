@@ -1,0 +1,32 @@
+[dotenv@17.2.3] injecting env (1) from .env -- tip: ≡ƒöÉ prevent committing .env to code: https://dotenvx.com/precommit
+Available Models:
+- models/gemini-2.5-flash (Gemini 2.5 Flash) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.5-pro (Gemini 2.5 Pro) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.0-flash (Gemini 2.0 Flash) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.0-flash-001 (Gemini 2.0 Flash 001) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.0-flash-exp-image-generation (Gemini 2.0 Flash (Image Generation) Experimental) methods: generateContent,countTokens,bidiGenerateContent
+- models/gemini-2.0-flash-lite-001 (Gemini 2.0 Flash-Lite 001) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.0-flash-lite (Gemini 2.0 Flash-Lite) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-exp-1206 (Gemini Experimental 1206) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.5-flash-preview-tts (Gemini 2.5 Flash Preview TTS) methods: countTokens,generateContent
+- models/gemini-2.5-pro-preview-tts (Gemini 2.5 Pro Preview TTS) methods: countTokens,generateContent,batchGenerateContent
+- models/gemma-3-1b-it (Gemma 3 1B) methods: generateContent,countTokens
+- models/gemma-3-4b-it (Gemma 3 4B) methods: generateContent,countTokens
+- models/gemma-3-12b-it (Gemma 3 12B) methods: generateContent,countTokens
+- models/gemma-3-27b-it (Gemma 3 27B) methods: generateContent,countTokens
+- models/gemma-3n-e4b-it (Gemma 3n E4B) methods: generateContent,countTokens
+- models/gemma-3n-e2b-it (Gemma 3n E2B) methods: generateContent,countTokens
+- models/gemini-flash-latest (Gemini Flash Latest) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-flash-lite-latest (Gemini Flash-Lite Latest) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-pro-latest (Gemini Pro Latest) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.5-flash-lite (Gemini 2.5 Flash-Lite) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.5-flash-image (Nano Banana) methods: generateContent,countTokens,batchGenerateContent
+- models/gemini-2.5-flash-preview-09-2025 (Gemini 2.5 Flash Preview Sep 2025) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-2.5-flash-lite-preview-09-2025 (Gemini 2.5 Flash-Lite Preview Sep 2025) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-3-pro-preview (Gemini 3 Pro Preview) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-3-flash-preview (Gemini 3 Flash Preview) methods: generateContent,countTokens,createCachedContent,batchGenerateContent
+- models/gemini-3-pro-image-preview (Nano Banana Pro) methods: generateContent,countTokens,batchGenerateContent
+- models/nano-banana-pro-preview (Nano Banana Pro) methods: generateContent,countTokens,batchGenerateContent
+- models/gemini-robotics-er-1.5-preview (Gemini Robotics-ER 1.5 Preview) methods: generateContent,countTokens
+- models/gemini-2.5-computer-use-preview-10-2025 (Gemini 2.5 Computer Use Preview 10-2025) methods: generateContent,countTokens
+- models/deep-research-pro-preview-12-2025 (Deep Research Pro Preview (Dec-12-2025)) methods: generateContent,countTokens
